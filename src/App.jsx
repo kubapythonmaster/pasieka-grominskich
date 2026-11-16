@@ -5,6 +5,7 @@ import Honeys from "./components/Honeys.jsx";
 import Products from "./components/Products.jsx";
 import Gallery from "./components/Gallery.jsx";
 import Contact from "./components/Contact.jsx";
+import ContactForm from "./components/ContactForm.jsx";
 import Footer from "./components/Footer.jsx";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
         <Products />
         <Gallery />
         <Contact />
+        <ContactForm />
       </main>
       <Footer />
     </>
