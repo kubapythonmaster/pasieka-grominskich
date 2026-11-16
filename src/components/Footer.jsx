@@ -59,7 +59,12 @@ export default function Footer() {
         <p>
           © {new Date().getFullYear()} {business.name}
         </p>
-        <p>{business.region}</p>
+        <p>
+          Strona stworzona przez{" "}
+          <a href="https://nocturagency.pl" target="_blank" rel="noreferrer">
+            Noctura
+          </a>
+        </p>
       </div>
     </footer>
   );

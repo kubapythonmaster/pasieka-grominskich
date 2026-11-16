@@ -66,13 +66,13 @@ export default function Header() {
               {label}
             </a>
           ))}
-          <a className="nav-phone" href={business.phoneHref} onClick={() => setOpen(false)}>
-            {business.phone}
+          <a className="btn header-call nav-phone" href={business.phoneHref} onClick={() => setOpen(false)}>
+            Zadzwoń
           </a>
         </nav>
 
-        <a className="header-phone" href={business.phoneHref}>
-          {business.phone}
+        <a className="btn header-call" href={business.phoneHref}>
+          Zadzwoń
         </a>
 
         <button
