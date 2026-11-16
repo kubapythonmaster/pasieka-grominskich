@@ -1,0 +1,17 @@
+{
+  "name": "Pasieka Rodziny Gromińskich",
+  "short_name": "Pasieka Gromińskich",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fffdf8",
+  "theme_color": "#fffdf8",
+  "lang": "pl",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
